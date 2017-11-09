@@ -37,4 +37,5 @@ end
 
 def add_s(array)
   array.collect { |appendage| appendage << "s"}
+  array[1].chomp(-1)
 end
