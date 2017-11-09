@@ -28,4 +28,3 @@ def find_a(array)
   array.collect{|word| if word.first(a) then new_collection << word end}
   new_collection
 end
-  
