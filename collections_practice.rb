@@ -39,7 +39,7 @@ def add_s(array)
   array.collect do |appendage|
     if array[1] == appendage
       appendage
-    else 
+    else
       word + "s"
     end
   end
