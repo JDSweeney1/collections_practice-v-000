@@ -7,5 +7,5 @@ def sort_array_desc(i)
 end
 
 def sort_array_char_count(list)
-  list.sort  {|name, 2name| name.length <=> 2name.length}
+  list.sort  {|name, next_name| name.length <=> next_name.length}
 end
