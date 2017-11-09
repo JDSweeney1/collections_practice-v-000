@@ -36,5 +36,5 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.collect { |appendage| appendage << "!" unless appendage == array[2]}
+  array.collect { |appendage| appendage << "s" unless appendage == array[1]}
 end
