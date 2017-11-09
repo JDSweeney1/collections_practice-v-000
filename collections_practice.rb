@@ -40,7 +40,7 @@ def add_s(array)
     if array[1] == appendage
       appendage
     else
-      word + "s"
+      appendage + "s"
     end
   end
 end
