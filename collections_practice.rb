@@ -36,8 +36,5 @@ def sum_array(array)
 end
 
 def add_s(array)
-  new_collections = []
   array.collect { |appendage| appendage << "!" unless word == array[2]}
 end
-
-  
