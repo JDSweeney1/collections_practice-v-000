@@ -22,3 +22,10 @@ end
 def kesha_maker(array)
   array.each {|name| name[2] = "$"}
 end
+
+def find_a(array)
+  new_collection = []
+  array.collect{|word| if word.first(a) then new_collection << word}
+  new_collection
+end
+  
