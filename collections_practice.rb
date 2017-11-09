@@ -36,6 +36,11 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.collect { |appendage| appendage << "s"}
-  array[1].chomp("s")
+  array.collect do |appendage|
+    if array[1] == appendage
+      appendage
+    else 
+      word + "s"
+    end
+  end
 end
