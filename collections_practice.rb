@@ -25,7 +25,7 @@ end
 
 def find_a(array)
   new_collection = []
-  array.collect{|word| if word.first(a) then new_collection << word}
+  array.collect{|word| if word.first(a) then new_collection << word end}
   new_collection
 end
   
