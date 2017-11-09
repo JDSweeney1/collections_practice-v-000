@@ -9,4 +9,3 @@ end
 def sort_array_char_count(list)
   list.collect{|name| name.length}
 end
-  
