@@ -28,3 +28,7 @@ def find_a(array)
   array.collect{|word| if word[0] == "a" then new_collection << word end}
   new_collection
 end
+
+def sum_array(array)
+  sum = 0
+  array.each {|int| sum+=int}
